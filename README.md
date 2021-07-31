@@ -6,7 +6,7 @@
  * @LastEditors: Please set LastEditors
  * @LastEditTime: 2020-07-19 21:27:14
 --> 
-# 基于 Koa 框架搭建的后端服务
+# 基于 Koa 框架搭建的后端服务(适合前端开发学习Node.js相关知识以及运维知识)
 
 如果该项目对你有所帮助，麻烦给个小星星鼓励鼓励。
 
