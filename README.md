@@ -71,7 +71,7 @@ npm install
 
 ## 协同与参与开发
 
-1. 将项目 Fork 到自己个人参考
+1. 将项目 Fork 到自己个人仓库
 2. 将远端项目同步到本地
 
 ```bash
@@ -81,7 +81,7 @@ git clone https://gitee.com/wu_lin_20200628/wxxcx_node.git
 git clone https://github.com/linjingheng-dev/koa_service.git
 ```
 
-3. 开发完成后，提交到自己的参库，然后在自己参库中发起 Pull request 请求
+3. 开发完成后，提交到自己的仓库，然后在自己仓库中发起 Pull request 请求
 
 ## 分支说明
 
