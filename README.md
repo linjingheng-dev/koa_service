@@ -71,19 +71,27 @@ npm install
 
 ## 协同与参与开发
 
-1.将远端项目同步到本地
+1. 将项目 Fork 到自己个人参考
+2. 将远端项目同步到本地
 
 ```bash
+# 码云参库
 git clone https://gitee.com/wu_lin_20200628/wxxcx_node.git
+# GitHub
+git clone https://github.com/linjingheng-dev/koa_service.git
 ```
 
-2.分支说明  
+3. 开发完成后，提交到自己的参库，然后在自己参库中发起 Pull request 请求
+
+## 分支说明
+
 开发分支：feature/需求名称_分支创建日期_开发人  
 测试分支：release/test  
 上线分支：sx  
 生成分支：master
 
-3.代码规范  
+## 代码规范
+
 规范工具：husky eslint  
 
 ```bash
