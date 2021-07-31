@@ -1,0 +1,18 @@
+apps:
+  - script   : './bin/www.js'
+    name     : 'node_server'
+    exec_mode: 'fork'
+    watch    : true
+    error_file : '/logs/err.log'
+    out_file : '/logs/out.log'
+    instances: 1
+    log_date_format : 'YYYY-MM-DD HH:mm Z'
+    ignore_watch: ['node_modules']
+    env_pro:
+      NODE_ENV: 'production'
+    env_dev:
+      NODE_ENV: 'development'
+    env_test:
+      NODE_ENV: 'test'
+
+

@@ -1,0 +1,34 @@
+version: "3.0"
+services:
+  node_service:
+    container_name: node_service
+    image: node_server:v20210730_01
+    restart: always
+    volumes:
+      - ./server:/usr/src/app
+      - ./files:/usr/src/files
+      - ./logs:/logs
+    ports:
+      - "3022:3022"
+      - "3023:3023"
+    environment:
+      - PORT=3022
+      - PORT=3023
+      - NODE_ENV=production
+      - TZ=Asia/Shanghai
+    links:
+      - mysqldb
+
+  mysqldb:
+    container_name: mysql_node
+    image: mysql:latest
+    restart: always
+    volumes:
+      - /home/mysql/conf:/etc/mysql/conf.d
+      - /home/mysql/data:/var/lib/mysql
+      - /home/mysql/logs:/logs
+      - /home/mysql/sql:/home/sql
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+    ports:
+      - "3305:3306"
