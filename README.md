@@ -10,6 +10,9 @@
 
 如果该项目对你有所帮助，麻烦给个小星星鼓励鼓励。
 
+![image](https://img.shields.io/badge/koa-koa-green)
+![image](https://img.shields.io/badge/koa-koa-green)
+
 ## 展望
 
 借此项目，完成用户行为分析、埋点系统搭建、快速感知线上运行异常错误并快速解决问题、性能分析等一系列学习与总结，最后完成持续集成相关学习与总结。
